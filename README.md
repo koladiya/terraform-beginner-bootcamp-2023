@@ -22,6 +22,10 @@ Terraform is an open-source infrastructure as code (IaC) tool used in the field 
 #### Terraform Plan & Apply
 ``terraform plan`` is a Terraform command used to preview the changes that Terraform will make to your infrastructure. It analyzes your configuration files and shows you what resources will be created, modified, or deleted when you apply your Terraform configuration using ``terraform apply``. This allows you to review and verify the expected changes before making them to ensure they align with your intentions and expectations.
 
+#### Terraform Destroy
+`terraform destroy` is a Terrafrom command used to delete the reources.
+
+
 #### Terraform Lock files
 The ``.terraform.lock.hcl`` file is used in Terraform to lock the versions of required provider plugins to ensure consistency and reproducibility of your Terraform configurations. It is a part of Terraform's dependency management system.
 
