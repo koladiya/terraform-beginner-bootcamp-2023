@@ -1,5 +1,11 @@
 
 terraform {
+  cloud {
+    organization = "kk-test1"
+    workspaces {
+      name = "terra-house-1"
+    }
+  }
   required_providers {
     random = {
       source = "hashicorp/random"
@@ -15,9 +21,7 @@ terraform {
 
 provider "aws" {
   # Configuration options
-  # region     = "eu-central-1"
-  # access_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-  # secret_key = "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+
 }
 
 provider "random" {
