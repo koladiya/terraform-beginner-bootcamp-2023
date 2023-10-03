@@ -2,12 +2,20 @@
 
 ![image](https://github.com/koladiya/terraform-beginner-bootcamp-2023/assets/17511896/f8ff200f-c92f-4ada-a708-0309a0295fc9)
 
+# Table of contents
+- [Terraform Basics](#terraform-basics)
+- [Terraform Registry](#terraform-registry)
+- [Terraform Init](#terraform-init)
+- [Terraform Plan & Apply](#terraform-plan--apply)
+- [Terraform Destroy](#terraform-destroy)
+- [Terraform Lock files](#terraform-lock-files)
+- [Terraform state file](#terraform-state-file)
 
 ## Terraform Basics
 
 Terraform is an open-source infrastructure as code (IaC) tool used in the field of cloud computing and IT infrastructure management. It allows users to define and manage their infrastructure, including servers, networks, and databases, using code. With Terraform, you can specify the desired state of your infrastructure in configuration files, and then Terraform will automatically create, update, or delete resources to match that desired state. This approach makes it easier to manage and automate the provisioning and configuration of complex infrastructure in a consistent and repeatable manner, whether in the cloud or on-premises.
 
-### Terraform Registry
+## Terraform Registry
 [registry.terraform.io](https://registry.terraform.io/)
 
 - **Providers** : In the context of Terraform, a "provider" is a plugin or interface that allows Terraform to interact with and manage a specific cloud or infrastructure platform. Each provider is responsible for translating Terraform configurations into the actions and _API calls_ needed to create, update, or delete resources within its respective platform.
