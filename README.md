@@ -1,5 +1,6 @@
 # Terraform Beginner Bootcamp 2023
 
+![image](https://github.com/koladiya/terraform-beginner-bootcamp-2023/assets/17511896/f8ff200f-c92f-4ada-a708-0309a0295fc9)
 
 
 ## Terraform Basics
