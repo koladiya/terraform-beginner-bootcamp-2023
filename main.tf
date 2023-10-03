@@ -7,7 +7,7 @@ resource "random_string" "bucket_name" {
 }
 
 
-resource "aws_s3_bucket" "example" {
+resource "aws_s3_bucket" "website_bucket" {
   bucket = random_string.bucket_name.result
 
   tags = {
