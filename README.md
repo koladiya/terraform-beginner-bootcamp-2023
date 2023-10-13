@@ -8,3 +8,12 @@
 
 ## Extras
 - [Github Markdown TOC Generator](https://ecotrust-canada.github.io/markdown-toc/)
+
+
+## Notes:
+- I have stored following variables in the terraform cloud:
+    - ``user_uuid="xxxxxxx-dded-497f-8f49-yyyyyyyyyyyyy"``
+    - ``bucket_name="example-unique"``
+    - ``index_html_filepath="./public/index.html"``
+    - ``error_html_filepath="./public/error.html"``
+    - ``assets_path="./public/assets"``
