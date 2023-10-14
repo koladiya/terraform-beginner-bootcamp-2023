@@ -3,11 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aracnum</title>
+    <title>Dabeli Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6ee28b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        #recipe-image {
+            display: block;
+            margin: 0 auto;
+        }
+        #video-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 800px;
+        }
+        #recipe {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>How to get starting playing Arcanum<h1>
-    <img src="/assets/arcanum-box-art.jpg" />
-    <img src="/assets/screenshot.png" />
+    <header>
+        <h1>Dabeli Recipe</h1>
+    </header>
+
+    <img id="recipe-image" src="/assets/dabeli.jpg" alt="Dabeli Recipe Image">
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <p>This is a simple and delicious Dabeli recipe.</p>
+        <h3>Ingredients</h3>
+        <ul>
+            <li>6 Pav (Indian bread rolls)</li>
+            <li>4-5 medium-sized boiled and mashed potatoes</li>
+            <li>1 cup roasted peanuts</li>
+            <li>1/4 cup pomegranate seeds</li>
+            <li>2 tablespoons Dabeli masala</li>
+            <li>2 tablespoons tamarind chutney</li>
+            <li>2 tablespoons garlic chutney</li>
+            <li>2 tablespoons oil</li>
+            <li>Salt to taste</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Heat oil in a pan and add Dabeli masala. Sauté for a minute.</li>
+            <li>Add mashed potatoes and salt. Mix well.</li>
+            <li>Split the pav into half and lightly roast them.</li>
+            <li>Spread garlic chutney and tamarind chutney on the pav.</li>
+            <li>Fill the pav with the potato mixture.</li>
+            <li>Garnish with roasted peanuts and pomegranate seeds.</li>
+        </ol>
+    </div>
+
+    <div id="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tKqrVyX9TJk" frameborder="0" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
