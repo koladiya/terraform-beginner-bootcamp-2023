@@ -7,12 +7,12 @@ terraform {
       version = "1.0.0"
     }
   }
-  # cloud {
-  #   organization = "kk-test1"
-  #   workspaces {
-  #     name = "terra-house-1"
-  #   }
-  # }
+  cloud {
+    organization = "kk-test1"
+    workspaces {
+      name = "terra-house-1"
+    }
+  }
 }
 
 provider "terratowns" {
